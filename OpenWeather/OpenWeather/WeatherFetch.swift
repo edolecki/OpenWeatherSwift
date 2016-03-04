@@ -12,7 +12,7 @@ import UIKit
 class WeatherFetch: UIView {
     
     var myFrame: CGRect!
-    var APIKey = "60999e242afc6229cd8aabe41caeeea5"
+    var APIKey = "add your key here"
     var weatherFetchTimer: NSTimer!
     var cityName = "boston"
     
