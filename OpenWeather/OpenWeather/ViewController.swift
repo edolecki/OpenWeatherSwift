@@ -10,16 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var weatherFetch: WeatherFetch!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        weatherFetch = WeatherFetch(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 50))
+        weatherFetch.updateTheWeather()
+        weatherFetch.beginFetchingWeather()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
 }
 

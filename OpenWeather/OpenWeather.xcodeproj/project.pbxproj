@@ -13,6 +13,8 @@
 		5FA95C941C8A0E51009D6BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA95C931C8A0E51009D6BFD /* Assets.xcassets */; };
 		5FA95C971C8A0E51009D6BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA95C951C8A0E51009D6BFD /* LaunchScreen.storyboard */; };
 		5FA95C9F1C8A0E92009D6BFD /* WeatherFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA95C9E1C8A0E92009D6BFD /* WeatherFetch.swift */; };
+		5FA95CA21C8A10FC009D6BFD /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA95CA11C8A10FC009D6BFD /* SwiftyJSON.swift */; };
+		5FA95CA41C8A112C009D6BFD /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA95CA31C8A112C009D6BFD /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5FA95C961C8A0E51009D6BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FA95C981C8A0E51009D6BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FA95C9E1C8A0E92009D6BFD /* WeatherFetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherFetch.swift; sourceTree = "<group>"; };
+		5FA95CA11C8A10FC009D6BFD /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		5FA95CA31C8A112C009D6BFD /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		5FA95C8B1C8A0E51009D6BFD /* OpenWeather */ = {
 			isa = PBXGroup;
 			children = (
+				5FA95CA01C8A10B9009D6BFD /* Classes */,
 				5FA95C8C1C8A0E51009D6BFD /* AppDelegate.swift */,
 				5FA95C8E1C8A0E51009D6BFD /* ViewController.swift */,
 				5FA95C901C8A0E51009D6BFD /* Main.storyboard */,
 				5FA95C931C8A0E51009D6BFD /* Assets.xcassets */,
 				5FA95C951C8A0E51009D6BFD /* LaunchScreen.storyboard */,
 				5FA95C981C8A0E51009D6BFD /* Info.plist */,
-				5FA95C9E1C8A0E92009D6BFD /* WeatherFetch.swift */,
 			);
 			path = OpenWeather;
+			sourceTree = "<group>";
+		};
+		5FA95CA01C8A10B9009D6BFD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5FA95C9E1C8A0E92009D6BFD /* WeatherFetch.swift */,
+				5FA95CA11C8A10FC009D6BFD /* SwiftyJSON.swift */,
+				5FA95CA31C8A112C009D6BFD /* Reachability.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +155,8 @@
 				5FA95C8F1C8A0E51009D6BFD /* ViewController.swift in Sources */,
 				5FA95C8D1C8A0E51009D6BFD /* AppDelegate.swift in Sources */,
 				5FA95C9F1C8A0E92009D6BFD /* WeatherFetch.swift in Sources */,
+				5FA95CA41C8A112C009D6BFD /* Reachability.swift in Sources */,
+				5FA95CA21C8A10FC009D6BFD /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
